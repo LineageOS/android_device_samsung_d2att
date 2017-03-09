@@ -23,4 +23,4 @@ export DEVICE_COMMON=d2-common
 export PLATFORM_COMMON=msm8960-common
 export VENDOR=samsung
 
-./../$PLATFORM_COMMON/extract-files.sh $@
+./../$PLATFORM_COMMON/setup-makefiles.sh $@
