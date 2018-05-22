@@ -29,3 +29,6 @@
 # Assert
 TARGET_OTA_ASSERT_DEVICE := d2att,d2lte,d2can,d2tmo
 
+#BOARD_HARDWARE_CLASS := device/samsung/d2att/lineagehw/
+BOARD_KERNEL_IMAGE_NAME := zImage
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
